@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://sukidayo.top/categories/index.html</loc>
+    
+    <lastmod>2019-11-24T15:35:53.887Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sukidayo.top/tags/index.html</loc>
+    
+    <lastmod>2019-11-24T15:35:31.638Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://sukidayo.top/2019/11/24/hello-world/</loc>
     
     <lastmod>2019-11-24T15:00:09.261Z</lastmod>
