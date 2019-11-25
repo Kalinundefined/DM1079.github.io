@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-Hans"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="recursion"><meta name="keywords" content="递归"><meta name="author" content="Alin"><meta name="copyright" content="Alin"><title>recursion | 好きだよ！</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.6.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.6.1"><link rel="dns-prefetch" href="https://cdn.staticfile.org"><link rel="dns-prefetch" href="https://cdn.bootcss.com"><link rel="dns-prefetch" href="https://creativecommons.org"><script>var GLOBAL_CONFIG = { 
+<!DOCTYPE html><html lang="zh-Hans"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="递归"><meta name="keywords" content="递归"><meta name="author" content="Alin"><meta name="copyright" content="Alin"><title>递归 | 好きだよ！</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.6.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.6.1"><link rel="dns-prefetch" href="https://cdn.staticfile.org"><link rel="dns-prefetch" href="https://cdn.bootcss.com"><link rel="dns-prefetch" href="https://creativecommons.org"><script>var GLOBAL_CONFIG = { 
   root: '/',
   algolia: undefined,
   localSearch: undefined,
@@ -8,7 +8,7 @@
     noSupport: '浏览器不支持'
   }
 } </script><link rel="alternate" href="/atom.xml" title="好きだよ！" type="application/atom+xml">
-</head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="toggle-sidebar-info text-center"><span data-toggle="切换文章详情">切换站点概览</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Introduction"><span class="toc-number">1.</span> <span class="toc-text">Introduction</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#递归示例"><span class="toc-number">2.</span> <span class="toc-text">递归示例</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#计算阶乘"><span class="toc-number">2.1.</span> <span class="toc-text">计算阶乘</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#计算斐波那契数列"><span class="toc-number">2.2.</span> <span class="toc-text">计算斐波那契数列</span></a></li></ol></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="/img/avatar.png"></div><div class="author-info__name text-center">Alin</div><div class="author-info__description text-center"></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">文章</span><span class="pull-right">1</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">标签</span><span class="pull-right">1</span></a></div></div></div><div id="content-outer"><div class="no-bg" id="top-container"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">好きだよ！</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus"><a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span></div><div id="post-info"><div id="post-title">recursion</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-11-25</time></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>递归指的是在函数的定义中使用函数自身的方法。 </p>
+</head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="toggle-sidebar-info text-center"><span data-toggle="切换文章详情">切换站点概览</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Introduction"><span class="toc-number">1.</span> <span class="toc-text">Introduction</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#递归示例"><span class="toc-number">2.</span> <span class="toc-text">递归示例</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#计算阶乘"><span class="toc-number">2.1.</span> <span class="toc-text">计算阶乘</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#计算斐波那契数列"><span class="toc-number">2.2.</span> <span class="toc-text">计算斐波那契数列</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#快速排序"><span class="toc-number">2.3.</span> <span class="toc-text">快速排序</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#OJ题目思路解析"><span class="toc-number">3.</span> <span class="toc-text">OJ题目思路解析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#台阶问题"><span class="toc-number">3.1.</span> <span class="toc-text">台阶问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#学生信息"><span class="toc-number">3.2.</span> <span class="toc-text">学生信息</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#循环链表"><span class="toc-number">3.3.</span> <span class="toc-text">循环链表</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#OJ题目答案"><span class="toc-number">4.</span> <span class="toc-text">OJ题目答案</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="/img/avatar.png"></div><div class="author-info__name text-center">Alin</div><div class="author-info__description text-center"></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">文章</span><span class="pull-right">3</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">标签</span><span class="pull-right">2</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">分类</span><span class="pull-right">1</span></a></div></div></div><div id="content-outer"><div class="no-bg" id="top-container"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">好きだよ！</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus"><a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span></div><div id="post-info"><div id="post-title">递归</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-11-25</time><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/C-C/">C/C++</a></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>递归指的是在函数的定义中使用函数自身的方法。 </p>
  <a id="more"></a> 
 <p><strong>递归</strong>（recursive）函数是“自己调用自己”的函数。因为函数不可以一直不停地调用自己，所以递归函数一定具备结束条件。</p>
 <p>语法格式如下：</p>
@@ -20,7 +20,145 @@
 <h2 id="递归示例"><a href="#递归示例" class="headerlink" title="递归示例"></a>递归示例</h2><p>下面的示例使用递归函数完成了一些简单的操作。</p>
 <h3 id="计算阶乘"><a href="#计算阶乘" class="headerlink" title="计算阶乘"></a>计算阶乘</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">double</span> <span class="title">factorial</span><span class="params">(<span class="keyword">unsigned</span> <span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (i &lt;= <span class="number">1</span>) &#123;<span class="comment">//递归结束的条件</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> i * factorial(i - <span class="number">1</span>);<span class="comment">//如果不满足递归结束的条件，则反复调用自身</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;i);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d 的阶乘为 %f\n"</span>, i, factorial(i));</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h3 id="计算斐波那契数列"><a href="#计算斐波那契数列" class="headerlink" title="计算斐波那契数列"></a>计算斐波那契数列</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">fibonaci</span><span class="params">(<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (i == <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;<span class="comment">//递归结束的条件1</span></span><br><span class="line">    <span class="keyword">if</span> (i == <span class="number">1</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    &#125;<span class="comment">//递归结束的条件2</span></span><br><span class="line">    <span class="keyword">return</span> fibonaci(i - <span class="number">1</span>) + fibonaci(i - <span class="number">2</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++) &#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d\t\n"</span>, fibonaci(i));</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined" target="_blank" rel="noopener">Alin</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://www.sukidayo.top/2019/11/25/recursion/">http://www.sukidayo.top/2019/11/25/recursion/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://www.sukidayo.top">好きだよ！</a>！</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E9%80%92%E5%BD%92/">递归</a></div><nav id="pagination"></nav></div></div><footer><div class="layout" id="footer"><div class="copyright">&copy;2013 - 2019 By Alin</div><div class="framework-info"><span>驱动 - </span><a href="http://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 - </span><a href="https://github.com/Molunerfinn/hexo-theme-melody" target="_blank" rel="noopener"><span>Melody</span></a></div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file-o"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.6.1"></script><script src="/js/fancybox.js?version=1.6.1"></script><script src="/js/sidebar.js?version=1.6.1"></script><script src="/js/copy.js?version=1.6.1"></script><script src="/js/fireworks.js?version=1.6.1"></script><script src="/js/transition.js?version=1.6.1"></script><script src="/js/scroll.js?version=1.6.1"></script><script src="/js/head.js?version=1.6.1"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+<h3 id="快速排序"><a href="#快速排序" class="headerlink" title="快速排序"></a>快速排序</h3><p>快速排序是$C.R.A.Hoare$于1962年提出的一种划分交换排序。它采用了一种分治的策略。</p>
+<p>该方法的基本思想是：</p>
+<ul>
+<li><p>1．先从数列中取出一个数作为基准数。</p>
+</li>
+<li><p>2．分区过程，将比这个数大的数全放到它的右边，小于或等于它的数全放到它的左边。</p>
+</li>
+<li><p>3．再对左右区间重复第二步，直到各区间只有一个数。  </p>
+</li>
+</ul>
+<p>虽然快速排序称为分治法，但分治法这三个字显然无法很好的概括快速排序的全部步骤。因此可以对快速排序作了进一步的说明：挖坑填数+分治法：</p>
+<p>以一个数组作为示例，取区间第一个数为基准数。</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>72</em></td>
+<td>6</td>
+<td>57</td>
+<td>88</td>
+<td>60</td>
+<td>42</td>
+<td>83</td>
+<td>73</td>
+<td>48</td>
+<td>85</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>初始时，$i = 0; j = 9;  X = a[i] = 72$</p>
+<p>由于已经将$ a[0]$ 中的数保存到 $X $中，可以理解成在数组 $a[0] $上挖了个坑，可以将其它数据填充到这来。</p>
+<p>从$j$开始向前找一个比$X$小或等于$X$的数。当$j=8$，符合条件，将$a[8]$挖出再填到上一个坑$a[0]$中。$a[0]=a[8]; i++;$ 这样一个坑$a[0]$就被搞定了，但又形成了一个新坑$a[8]$，这怎么办？再找数字来填$a[8]$这个坑。这次从$i$开始向后找一个大于$X$的数，当$i=3$，符合条件，将$a[3]$挖出再填到上一个坑中$a[8]=a[3]; j—;$</p>
+<p>  数组变为：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>48</strong></td>
+<td>6</td>
+<td>57</td>
+<td><em>88</em></td>
+<td>60</td>
+<td>42</td>
+<td>83</td>
+<td>73</td>
+<td><strong>88</strong></td>
+<td>85</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>  $i = 3;  j = 7;  X=72$</p>
+<p>  再重复上面的步骤，先从后向前找，再从前向后找。</p>
+<p>  从$j$开始向前找，当$j=5$，符合条件，将a[5]挖出填到上一个坑中，$a[3] = a[5]; i++;$</p>
+<p>  从$i$开始向后找，当$i=5$时，由于$i==j$退出。</p>
+<p>  此时，$i = j = 5$，而$a[5]$刚好又是上次挖的坑，因此将$X$填入$a[5]$。</p>
+<p>  数组变为：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>48</strong></td>
+<td>6</td>
+<td>57</td>
+<td><strong>42</strong></td>
+<td>60</td>
+<td><em>72</em></td>
+<td>83</td>
+<td>73</td>
+<td><strong>88</strong></td>
+<td>85</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>可以看出a[5]前面的数字都小于它，a[5]后面的数字都大于它。因此再对$a[0]-a[4]$和$a[6]-a[9]$这二个子区间重复上述步骤就可以了。  </p>
+<p>对挖坑填数进行总结:</p>
+<ul>
+<li>1．$i =L; j = R$; 将基准数挖出形成第一个坑$a[i]$。</li>
+<li>2．$j—$由后向前找比它小的数，找到后挖出此数填前一个坑$a[i]$中。</li>
+<li>3．$i++$由前向后找比它大的数，找到后也挖出此数填到前一个坑$a[j]$中。</li>
+<li>4．重复执行2，3二步，直到$i==j$，将基准数填入$a[i]$中。</li>
+</ul>
+<p>代码实现：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//快速排序</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">quick_sort</span><span class="params">(<span class="keyword">int</span> s[], <span class="keyword">int</span> l, <span class="keyword">int</span> r)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (l &lt; r) &#123;</span><br><span class="line">        <span class="comment">// Swap(s[l], s[(l + r) / 2]); //将中间的这个数和第一个数交换 参见注1</span></span><br><span class="line">        <span class="keyword">int</span> i = l, j = r, x = s[l];</span><br><span class="line">        <span class="keyword">while</span> (i &lt; j) &#123;</span><br><span class="line">            <span class="keyword">while</span> (i &lt; j &amp;&amp; s[j] &gt;= x)  <span class="comment">// 从右向左找第一个小于x的数</span></span><br><span class="line">                j--;</span><br><span class="line">            <span class="keyword">if</span> (i &lt; j)</span><br><span class="line">                s[i++] = s[j];</span><br><span class="line"></span><br><span class="line">            <span class="keyword">while</span> (i &lt; j &amp;&amp; s[i] &lt; x)  <span class="comment">// 从左向右找第一个大于等于x的数</span></span><br><span class="line">                i++;</span><br><span class="line">            <span class="keyword">if</span> (i &lt; j)</span><br><span class="line">                s[j--] = s[i];</span><br><span class="line">        &#125;</span><br><span class="line">        s[i] = x;</span><br><span class="line">        quick_sort(s, l, i - <span class="number">1</span>);  <span class="comment">// 递归调用</span></span><br><span class="line">        quick_sort(s, i + <span class="number">1</span>, r);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote id="fn_1">
+<sup>1</sup>. 有的书上是以中间的数作为基准数的，实现这个方便非常方便，将中间的数和第一个数进行交换就可以了。<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">快速排序部分来自网络</span><br><span class="line">作者：MoreWindows</span><br><span class="line">原文：https://blog.csdn.net/morewindows/article/details/6684558</span><br></pre></td></tr></table></figure>
+<h2 id="OJ题目思路解析"><a href="#OJ题目思路解析" class="headerlink" title="OJ题目思路解析"></a>OJ题目思路解析</h2><h3 id="台阶问题"><a href="#台阶问题" class="headerlink" title="台阶问题"></a>台阶问题</h3><p>不难得出，如果要上到第$n$级台阶，那么之前一定在第$n-1$级台阶或第$n-2$级台阶上。加上边界条件，解决。</p>
+<h3 id="学生信息"><a href="#学生信息" class="headerlink" title="学生信息"></a>学生信息</h3><p>重点是排序。</p>
+<h3 id="循环链表"><a href="#循环链表" class="headerlink" title="循环链表"></a>循环链表</h3><p>关于循环链表的建立：与普通链表的建立没有很大区别，将尾节点的$next$域置为第一个元素（注意：不是头结点，而是第一个实际元素）的地址即可。</p>
+<p>算法思路：如果目前有$n$名幸存者，那么进行完一轮报数后剩余$(n-1)$名幸存者。当场上仅有一名幸存者时，结束。</p>
+<p>这个问题也可以用非递归的算法解决。</p>
+<h2 id="OJ题目答案"><a href="#OJ题目答案" class="headerlink" title="OJ题目答案"></a>OJ题目答案</h2><p><del>这里没有，别想了。</del></p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined" target="_blank" rel="noopener">Alin</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://www.sukidayo.top/2019/11/25/recursion/">http://www.sukidayo.top/2019/11/25/recursion/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://www.sukidayo.top">好きだよ！</a>！</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E9%80%92%E5%BD%92/">递归</a></div><nav id="pagination"><div class="next-post pull-right"><a href="/2019/11/24/yolov3/"><span>用yolov3训练自己的数据集</span><i class="fa fa-chevron-right"></i></a></div></nav></div></div><footer><div class="layout" id="footer"><div class="copyright">&copy;2013 - 2019 By Alin</div><div class="framework-info"><span>驱动 - </span><a href="http://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 - </span><a href="https://github.com/Molunerfinn/hexo-theme-melody" target="_blank" rel="noopener"><span>Melody</span></a></div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file-o"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.6.1"></script><script src="/js/fancybox.js?version=1.6.1"></script><script src="/js/sidebar.js?version=1.6.1"></script><script src="/js/copy.js?version=1.6.1"></script><script src="/js/fireworks.js?version=1.6.1"></script><script src="/js/transition.js?version=1.6.1"></script><script src="/js/scroll.js?version=1.6.1"></script><script src="/js/head.js?version=1.6.1"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
   tex2jax: {
     inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
     processEscapes: true,
