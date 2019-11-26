@@ -40,20 +40,20 @@
   </entry>
   
   <entry>
-    <title>yolov3使用指南</title>
+    <title>yolov3使用指南（Win10）</title>
     <link href="http://www.sukidayo.top/2019/11/24/yolov3/"/>
     <id>http://www.sukidayo.top/2019/11/24/yolov3/</id>
     <published>2019-11-23T16:00:00.000Z</published>
-    <updated>2019-11-25T11:45:47.514Z</updated>
+    <updated>2019-11-26T13:53:46.184Z</updated>
     
-    <content type="html"><![CDATA[<p>还没写完……</p>]]></content>
+    <content type="html"><![CDATA[<p>yolov3官方给出了Linux系统下构建的详细流程，然而VMware的虚拟机并不支持GPU，本人又懒得装双系统；于是探索了不少教程，终于在Win10下成功构建了yolov3并完成了模型的训练。将配置环境/训练/识别的过程记在这里，以便日后使用</p><h2 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h2><p>​    Windows 10</p><p>​    VS2017</p><p>​    CUDA10.1</p><p>​    OpenCV 3.2.0</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;还没写完……&lt;/p&gt;
-
+        &lt;p&gt;yolov3官方给出了Linux系统下构建的详细流程，然而VMware的虚拟机并不支持GPU，本人又懒得装双系统；于是探索了不少教程，终于在Win10下成功构建了yolov3并完成了模型的训练。将配置环境/训练/识别的过程记在这里，以便日后使用&lt;/p&gt;
+&lt;h2 id=&quot;环境
       
     
     </summary>
