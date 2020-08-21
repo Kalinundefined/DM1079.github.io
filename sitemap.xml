@@ -4,71 +4,117 @@
   <url>
     <loc>http://www.sukidayo.top/2019/11/29/dairy1129/</loc>
     
-    <lastmod>2020-06-29T14:40:01.027Z</lastmod>
+    <lastmod>2020-06-29</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.sukidayo.top/2020/02/06/dairy0206/</loc>
     
-    <lastmod>2020-02-06T15:37:28.754Z</lastmod>
+    <lastmod>2020-02-06</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.sukidayo.top/2019/11/26/dairy1126/</loc>
     
-    <lastmod>2019-12-01T11:00:12.545Z</lastmod>
+    <lastmod>2019-12-01</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.sukidayo.top/2019/11/23/dairy1123/</loc>
     
-    <lastmod>2019-12-01T11:00:04.448Z</lastmod>
+    <lastmod>2019-12-01</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.sukidayo.top/2019/11/21/index/</loc>
     
-    <lastmod>2019-11-26T14:32:46.636Z</lastmod>
+    <lastmod>2019-11-26</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.sukidayo.top/2019/11/24/yolov3/</loc>
     
-    <lastmod>2019-11-26T14:17:16.629Z</lastmod>
+    <lastmod>2019-11-26</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.sukidayo.top/2019/11/25/recursion/</loc>
     
-    <lastmod>2019-11-26T14:16:45.196Z</lastmod>
+    <lastmod>2019-11-26</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.sukidayo.top/2019/11/21/linkedlist/</loc>
     
-    <lastmod>2019-11-26T14:16:31.761Z</lastmod>
+    <lastmod>2019-11-26</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.sukidayo.top/tags/index.html</loc>
     
-    <lastmod>2019-11-25T10:33:41.262Z</lastmod>
+    <lastmod>2019-11-25</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.sukidayo.top/categories/index.html</loc>
     
-    <lastmod>2019-11-25T10:33:33.831Z</lastmod>
+    <lastmod>2019-11-25</lastmod>
     
+  </url>
+  
+
+  <url>
+    <loc>http://www.sukidayo.top/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://www.sukidayo.top/tags/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sukidayo.top/tags/%E9%93%BE%E8%A1%A8/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sukidayo.top/tags/%E9%80%92%E5%BD%92/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>http://www.sukidayo.top/categories/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sukidayo.top/categories/C-C/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
   </url>
   
 </urlset>
